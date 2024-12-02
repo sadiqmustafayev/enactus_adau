@@ -133,9 +133,13 @@ a:focus {
 }
 
 .navbar-brand img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
   margin-right: 5px;
-  width: 35px;
 }
+
 
 .navbar-brand span {
   font-size: 22px;
