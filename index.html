@@ -322,18 +322,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form action="">
+          <form action="" onsubmit="emailSend(); reset(); return false;">
             <div>
-              <input type="text" placeholder="Name" />
+              <input type="text" id="name" placeholder="Full Name" required/>
             </div>
             <div>
-              <input type="email" placeholder="Email" />
+              <input type="email" id="email" placeholder="Email" required />
             </div>
             <div>
-              <input type="text" placeholder="Phone Number" />
+              <input type="text" id="number" placeholder="Phone Number" required />
             </div>
             <div>
-              <input type="text" class="message-box" placeholder="Message" />
+              <textarea id="message" rows="4" placeholder="Message"></textarea>
             </div>
             <div class="d-flex ">
               <button>
@@ -442,6 +442,8 @@
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="js/contact.js"></script>
 
 </body>
 
