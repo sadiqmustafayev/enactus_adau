@@ -369,9 +369,19 @@ a:focus {
   font-family: 'Arial', sans-serif;
 }
 
-.service_section .service_container .box:hover, .service_section .service_container .box.active {
+.service_section .service_container .box:hover {
+  border-top: 15px solid #512a97; 
+}
+
+.service_section .service_container .box:active {
   border-top: 15px solid #512a97;
 }
+
+.service_section .service_container .box {
+  border-top: none;
+  transition: border-color 0.3s ease; 
+}
+
 
 .service_section .btn-box {
   display: -webkit-box;
@@ -391,8 +401,31 @@ a:focus {
   border-radius: 35px;
 }
 
-.service_section .btn-box a:hover {
-  background-color: #5625a1;
+.box {
+  background-color: transparent; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  color: #333; 
+}
+
+.box:hover {
+  background-color: #f0f0f0; 
+  color: #000; 
+  cursor: pointer; 
+}
+
+.img-box img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.detail-box h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.detail-box p.p_size {
+  font-size: 16px;
+  margin-top: 5px;
 }
 
 .about_section {
