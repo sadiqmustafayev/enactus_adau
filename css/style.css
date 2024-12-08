@@ -347,7 +347,7 @@ a:focus {
 }
 
 .service_section .service_container .box .img-box img {
-  width: 90px;
+  width: 150px;
 }
 
 .service_section .service_container .box .detail-box {
@@ -358,6 +358,15 @@ a:focus {
   color: #2e0e5f;
   font-weight: 600;
   position: relative;
+}
+
+.p_size {
+  font-size: 24px; 
+  font-weight: bold;
+  color: black; 
+  text-align: center; 
+  margin-top: 20px; 
+  font-family: 'Arial', sans-serif;
 }
 
 .service_section .service_container .box:hover, .service_section .service_container .box.active {
