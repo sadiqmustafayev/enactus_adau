@@ -748,4 +748,119 @@ a:focus {
 .footer_section p a {
   color: #222222;
 }
+
+.sub_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh; /* Tam səhifə hündürlüyü */
+}
+
+.hero_area {
+  flex-shrink: 0; /* Üst hissə */
+}
+
+.team_detail_section {
+  flex-grow: 1; /* Əsas məzmun genişlənsin */
+}
+
+.footer_section {
+  flex-shrink: 0; /* Footer aşağıda qalacaq */
+}
 /*# sourceMappingURL=style.css.map */
+
+/* Team Detail Bölməsi */
+/* Team Detail Section */
+.team-detail-section {
+  padding: 60px 0;
+  background-color: #f4f4f4;
+}
+
+.heading-container h2 {
+  font-size: 36px;
+  text-align: center;
+  color: #512a97;
+  margin-bottom: 40px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.image-box {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detail-box {
+  flex: 2;
+}
+
+.detail-box h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.detail-box h5 {
+  font-size: 22px;
+  color: #512a97;
+  margin-bottom: 15px;
+}
+
+.detail-box p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-info .btn {
+  background-color: #512a97;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-info .btn:hover {
+  background-color: #9b61d7;
+}
+
+@media (max-width: 768px) {
+  .team-member {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-box {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
