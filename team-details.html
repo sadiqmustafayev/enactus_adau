@@ -76,33 +76,10 @@
     <!-- end header section -->
   </div>
 
-  <section class="team-detail-section">
-    <div class="container">
-      <div class="heading-container">
-        <h2>Team Detail</h2>
-      </div>
-  
-      <div class="team-member">
-        <div class="image-box">
-          <img src="images/team/elcan_haydarov.jpg" alt="Elcan Haydarov">
-        </div>
-        <div class="detail-box">
-          <h3>Elcan Haydarov</h3>
-          <h5>Vice President</h5>
-          <p>
-            Elcan Haydarov, komanda lideri kimi mühüm vəzifələrdə iştirak edir.
-            O, layihələrin idarə olunmasında geniş təcrübəyə malikdir və komandanın
-            inkişafına xüsusi töhfə verir.
-          </p>
-          <div class="contact-info">
-            <a href="mailto:elcan@example.com" class="btn">Email</a>
-            <a href="https://linkedin.com/in/elcanhaydarov" target="_blank" class="btn">LinkedIn</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
+  <main id="team-detail">
+    <!-- Dinamik kontent burada yüklənəcək -->
+  </main>
+
           
   <!-- info section -->
 
@@ -191,6 +168,19 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/team-detals.js"></script>
+  <script src="js/team-details.js"></script>
+  <script>
+    // URL-dən "member" parametrini oxumaq
+    const urlParams = new URLSearchParams(window.location.search);
+    const memberKey = urlParams.get('member');
+
+    // Əgər parametr varsa, detalları göstər
+    if (memberKey) {
+      showTeamDetails(memberKey);
+    } else {
+      document.getElementById('team-detail').innerHTML = "<p>No team member selected!</p>";
+    }
+  </script>
 
 
 </body>

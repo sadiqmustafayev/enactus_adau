@@ -864,3 +864,10 @@ a:focus {
     align-items: center;
   }
 }
+
+.heading-container h2 {
+  margin-top: 50px; 
+  text-align: center; 
+}
+
+
