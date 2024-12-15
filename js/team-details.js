@@ -23,8 +23,8 @@ const teamDetails = {
     description: "Sara Mammadova, şirkətimizin İnsan Resursları Meneceridir. O, kadr seçimi, əməkdaşların inkişafı və daxili kommunikasiya üzrə təcrübəyə malikdir. Sara həmçinin, şirkətin strateji hədəflərinə uyğun insan resursları strategiyalarını tətbiq edir və işçilərin məmnuniyyətini artırmağa çalışır.",
     image: "images/team/sara_mammedova.jpg"
   },
-  zohrexkhanim_abbasova: {
-    name: "Zohrexkhanim Abbasova",
+  zohrekhanim_abbasova: {
+    name: "Zohrekhanim Abbasova",
     role: "PR Manager",
     description: "Zohrexkhanim Abbasova, şirkətimizin PR Meneceridir. O, şirkətin ictimai əlaqələrini idarə edir və media ilə münasibətləri gücləndirir. Zohrexkhanim, şirkətin nüfuzunun artırılması və brendin düzgün təqdim edilməsi üçün strateji PR kampaniyaları həyata keçirir. Həmçinin, o, müştərilərlə əlaqələri inkişaf etdirir və ictimaiyyətlə ünsiyyətdə mühüm rol oynayır.",
     image: "images/team/zohrexanim_abbasova.jpg"
