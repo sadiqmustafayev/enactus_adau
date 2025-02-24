@@ -27,7 +27,7 @@
     {
       name: "Zohrekhanim Abbasova",
       role: "PR Manager",
-      image: "images/team/zohrexanim_abbasova.jpg",
+      image: "images/team/5312184902709539326.jpg",
       link: "team-details.html?member=zohrekhanim_abbasova",
     },
     {

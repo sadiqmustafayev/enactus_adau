@@ -504,14 +504,26 @@ a:focus {
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blog_section .box .img-box {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
   position: relative;
 }
 
 .blog_section .box .img-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
 }
 
 .blog_section .box .detail-box {
@@ -521,6 +533,7 @@ a:focus {
 .blog_section .box .detail-box h5 {
   font-weight: bold;
 }
+
 
 .contact_section {
   position: relative;

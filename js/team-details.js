@@ -27,7 +27,7 @@ const teamDetails = {
     name: "Zohrekhanim Abbasova",
     role: "PR Manager",
     description: "Zohrexkhanim Abbasova, şirkətimizin PR Meneceridir. O, şirkətin ictimai əlaqələrini idarə edir və media ilə münasibətləri gücləndirir. Zohrexkhanim, şirkətin nüfuzunun artırılması və brendin düzgün təqdim edilməsi üçün strateji PR kampaniyaları həyata keçirir. Həmçinin, o, müştərilərlə əlaqələri inkişaf etdirir və ictimaiyyətlə ünsiyyətdə mühüm rol oynayır.",
-    image: "images/team/zohrexanim_abbasova.jpg"
+    image: "images/team/5312184902709539326.jpg"
   },
   bayram_suleymanov: {
     name: "Bayram Suleymanov",
