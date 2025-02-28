@@ -3,31 +3,31 @@ const teamDetails = {
     name: "Yaver Pashayev",
     role: "President",
     description: "Yaver Pashayev komandanın rəhbəridir və strateji qərarların verilməsində lider rolunu oynayır.",
-    image: "images/team/yaver_pashayev.jpg",
+    image: "images/team/yaver_pasayev.jpg",
   },
   elcan_haydarov: {
     name: "Elcan Haydarov",
     role: "Vice President",
     description: "Elcan Haydarov, komanda lideri kimi mühüm vəzifələrdə iştirak edir. O, layihələrin idarə olunmasında geniş təcrübəyə malikdir və komandanın inkişafına xüsusi töhfə verir.",
-    image: "images/team/elcan_haydarov.jpg",
+    image: "images/team/elcan_heyderov.jpg",
   },
   gulshan_alekberova: {
     name: "Gulshan Alekberova",
     role: "Vice President",
     description: "Gulshan Alekberova, komandanın təcrübəli üzvüdür və layihələrin həyata keçirilməsində fəal iştirak edir. O, həmçinin komandanın daxili əməliyyatlarına böyük töhfə verir.",
-    image: "images/team/gulshen_alekberova.jpg"
+    image: "images/team/gulsen_alakbarova.jpg"
   },
   sara_mammedova: {
     name: "Sara Mammadova",
     role: "HR Manager",
     description: "Sara Mammadova, şirkətimizin İnsan Resursları Meneceridir. O, kadr seçimi, əməkdaşların inkişafı və daxili kommunikasiya üzrə təcrübəyə malikdir. Sara həmçinin, şirkətin strateji hədəflərinə uyğun insan resursları strategiyalarını tətbiq edir və işçilərin məmnuniyyətini artırmağa çalışır.",
-    image: "images/team/sara_mammedova.jpg"
+    image: "images/team/sara_memmedova.jpg"
   },
   zohrekhanim_abbasova: {
     name: "Zohrekhanim Abbasova",
     role: "PR Manager",
     description: "Zohrexkhanim Abbasova, şirkətimizin PR Meneceridir. O, şirkətin ictimai əlaqələrini idarə edir və media ilə münasibətləri gücləndirir. Zohrexkhanim, şirkətin nüfuzunun artırılması və brendin düzgün təqdim edilməsi üçün strateji PR kampaniyaları həyata keçirir. Həmçinin, o, müştərilərlə əlaqələri inkişaf etdirir və ictimaiyyətlə ünsiyyətdə mühüm rol oynayır.",
-    image: "images/team/5312184902709539326.jpg"
+    image: "images/team/zohraxaniim_abbasova.jpg"
   },
   bayram_suleymanov: {
     name: "Bayram Suleymanov",
@@ -45,7 +45,7 @@ const teamDetails = {
     name: "Khanlar Ismayilov",
     role: "SMM Manager",
     description: "Khanlar Ismayilov, sosial media strategiyalarını və kampaniyalarını hazırlamaq və idarə etməkdə böyük təcrübəyə malik bir mütəxəssisdir. O, şirkətin sosial media hesablarını effektiv şəkildə idarə edir, brendin tanınmasını artırmaq və hədəf kütləyə çatmaq üçün kreativ yanaşmalar təqdim edir.",
-    image: "images/team/khanlar_ismayilov.jpg"
+    image: "images/team/xanlar_ismailov.jpg"
   },
   nurali_ilyasli: {
     name: "Nurali Ilyasli",
@@ -57,13 +57,13 @@ const teamDetails = {
     name: "Khanimbeyim Musayeva",
     role: "Designer",
     description: "Khanimbeyim Musayeva, kreativ dizayn və vizual kompozisiya sahəsində mütəxəssisdir. O, layihələrin estetik tərtibatında və istifadəçi təcrübəsi dizaynında geniş təcrübəyə malikdir, vizual həllərin effektivliyini artırmaq üçün çoxsaylı layihələrdə iştirak edib.",
-    image: "images/team/khanimbeyim_musayeva.jpg"
+    image: "images/team/xanimbeyim_musayeva.jpg"
   },
   tajir_isbatov: {
     name: "Tajir Isbatov",
     role: "Team Member",
     description: "Tajir Isbatov, komandamızın fəal üzvüdür və müxtəlif layihələrdə müsbət töhfələr verir. O, həmçinin komanda ilə sıx əməkdaşlıq edərək layihələrin daha səmərəli və effektiv həyata keçirilməsinə dəstək olur. Tajir, öz təşəbbüsləri və bacarıqları ilə komandanın güclü tərəflərini artıran bir üzvdür.",
-    image: "images/team/tajir_isbatov.jpg"
+    image: "images/team/tacir_isbatov.jpg"
   },
   sema_aslanova: {
     name: "Sema Aslanova",
@@ -75,7 +75,37 @@ const teamDetails = {
     name: "Ayshan Orujova",
     role: "Team Member",
     description: "Ayshan Orujova, komandamızın dinamik və kreativ üzvüdür. O, həm layihələrin müvəffəqiyyətlə həyata keçirilməsində, həm də komanda daxilində müsbət atmosferin yaradılmasında mühüm rol oynayır. Ayshan, innovativ yanaşmaları ilə komandanın uğurlarına böyük töhfə verir.",
-    image: "images/team/ayshan_orujova.jpg"
+    image: "images/team/aysen_orucova.jpg"
+  },
+  sirvan_hasanov: {
+    name: "Sirvan Hasanov",
+    role: "Team Member",
+    description: "Sirvan Hasanov, komandamızın dinamik və kreativ üzvüdür. O, həm layihələrin müvəffəqiyyətlə həyata keçirilməsində, həm də komanda daxilində müsbət atmosferin yaradılmasında mühüm rol oynayır. Sirvan, innovativ yanaşmaları ilə komandanın uğurlarına böyük töhfə verir.",
+    image: "images/team/sirvan_hasanov.jpg"
+  },
+  jale_mamedova: {
+    name: "Jale Mamedova",
+    role: "Team Member",
+    description: "Jale Mamedova, komandamızın dinamik və kreativ üzvüdür. O, həm layihələrin müvəffəqiyyətlə həyata keçirilməsində, həm də komanda daxilində müsbət atmosferin yaradılmasında mühüm rol oynayır. Jale, innovativ yanaşmaları ilə komandanın uğurlarına böyük töhfə verir.",
+    image: "images/team/jale_mamedova.jpg"
+  },
+  nesibe_suleymanova: {
+    name: "Nesibe Suleymanova",
+    role: "Team Member",
+    description: "Nesibe Suleymanova, komandamızın dinamik və kreativ üzvüdür. O, həm layihələrin müvəffəqiyyətlə həyata keçirilməsində, həm də komanda daxilində müsbət atmosferin yaradılmasında mühüm rol oynayır. Nesibe, innovativ yanaşmaları ilə komandanın uğurlarına böyük töhfə verir.",
+    image: "images/team/nesibe_suleymanova.jpg"
+  },
+  nurane_nadirova: {
+    name: "Nurane Nadirova",
+    role: "Team Member",
+    description: "Nurane Nadirova, komandamızın dinamik və kreativ üzvüdür. O, həm layihələrin müvəffəqiyyətlə həyata keçirilməsində, həm də komanda daxilində müsbət atmosferin yaradılmasında mühüm rol oynayır. Nurane, innovativ yanaşmaları ilə komandanın uğurlarına böyük töhfə verir.",
+    image: "images/team/nurane_nadirova.jpg"
+  },
+  sole_seyidova: {
+    name: "Sole Seyidova",
+    role: "Team Member",
+    description: "Sole Seyidova, komandamızın dinamik və kreativ üzvüdür. O, həm layihələrin müvəffəqiyyətlə həyata keçirilməsində, həm də komanda daxilində müsbət atmosferin yaradılmasında mühüm rol oynayır. Sole, innovativ yanaşmaları ilə komandanın uğurlarına böyük töhfə verir.",
+    image: "images/team/sole_seyidova.jpg"
   },
 };
 

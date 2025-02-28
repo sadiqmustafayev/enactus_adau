@@ -99,8 +99,8 @@
               <input type="email" id="email" placeholder="Email" required />
             </div>
             <div>
-              <input type="tel" id="number" placeholder="Phone Number" required 
-       pattern="[0-9]+" oninput="this.value = this.value.replace(/[^0-9]/g, '');" />
+              <input type="tel" inputmode="numeric" id="number" placeholder="Phone Number" required 
+       pattern="[0-9]{10,}" oninput="this.value = this.value.replace(/[^0-9]/g, '');" />
             </div>
             <div>
               <textarea id="message" rows="4" placeholder="Message"></textarea>

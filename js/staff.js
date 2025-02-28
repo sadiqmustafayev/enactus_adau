@@ -3,31 +3,31 @@
     {
       name: "Yaver Pashayev",
       role: "President",
-      image: "images/team/yaver_pashayev.jpg",
+      image: "images/team/yaver_pasayev.jpg",
       link: "team-details.html?member=yaver_pashayev",
     },
     {
       name: "Elcan Haydarov",
       role: "Vice President",
-      image: "images/team/elcan_haydarov.jpg",
+      image: "images/team/elcan_heyderov.jpg",
       link: "team-details.html?member=elcan_haydarov",
     },
     {
       name: "Gulshan Alekberova",
       role: "Vice President",
-      image: "images/team/gulshen_alekberova.jpg",
+      image: "images/team/gulsen_alakbarova.jpg",
       link: "team-details.html?member=gulshan_alekberova",
     },
     {
       name: "Sara Mammadova",
       role: "HR Manager",
-      image: "images/team/sara_mammedova.jpg",
+      image: "images/team/sara_memmedova.jpg",
       link: "team-details.html?member=sara_mammedova",
     },
     {
       name: "Zohrekhanim Abbasova",
       role: "PR Manager",
-      image: "images/team/5312184902709539326.jpg",
+      image: "images/team/zohraxaniim_abbasova.jpg",
       link: "team-details.html?member=zohrekhanim_abbasova",
     },
     {
@@ -45,7 +45,7 @@
     {
       name: "Khanlar Ismayilov",
       role: "SMM Manager",
-      image: "images/team/khanlar_ismayilov.jpg",
+      image: "images/team/xanlar_ismailov.jpg",
       link: "team-details.html?member=khanlar_ismayilov",
     },
     {
@@ -57,7 +57,7 @@
     {
       name: "Khanimbeyim Musayeva",
       role: "Designer",
-      image: "images/team/khanimbeyim_musayeva.jpg",
+      image: "images/team/xanimbeyim_musayeva.jpg",
       link: "team-details.html?member=khanimbeyim_musayeva",
     },
   ];
@@ -87,7 +87,7 @@
 const teamMembers = [
   {
     name: "Tajir Isbatov",
-    image: "images/team/tajir_isbatov.jpg",
+    image: "images/team/tacir_isbatov.jpg",
     link: "team-details.html?member=tajir_isbatov",
   },
   {
@@ -97,8 +97,33 @@ const teamMembers = [
   },
   {
     name: "Ayshan Orujova",
-    image: "images/team/ayshan_orujova.jpg",
+    image: "images/team/aysen_orucova.jpg",
     link: "team-details.html?member=ayshan_orujova",
+  },
+  {
+    name: "Sirvan Hasanov",
+    image: "images/team/sirvan_hasanov.jpg",
+    link: "team-details.html?member=sirvan_hasanov",
+  },
+  {
+    name: "Jale Mamedova",
+    image: "images/team/jale_mamedova.jpg",
+    link: "team-details.html?member=jale_mamedova",
+  },
+  {
+    name: "Nesibe Suleymanova",
+    image: "images/team/nesibe_suleymanova.jpg",
+    link: "team-details.html?member=nesibe_suleymanova",
+  },
+  {
+    name: "Nurane Nadirova",
+    image: "images/team/nurane_nadirova.jpg",
+    link: "team-details.html?member=nurane_nadirova",
+  },
+  {
+    name: "Sole Seyidova",
+    image: "images/team/sole_seyidova.jpg",
+    link: "team-details.html?member=sole_seyidova",
   },
 ];
 
